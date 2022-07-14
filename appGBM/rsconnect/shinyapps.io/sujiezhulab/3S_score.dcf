@@ -1,0 +1,13 @@
+name: 3S_score
+title: 3S_score
+username:
+account: sujiezhulab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6011541
+bundleId: 5807443
+url: https://sujiezhulab.shinyapps.io/3S_score/
+when: 1650221033.35659
+lastSyncTime: 1650221033.35659
+asMultiple: FALSE
+asStatic: FALSE
