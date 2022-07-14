@@ -1,0 +1,52 @@
+
+\documentclass[UTF8,8pt,twocolumn]{ctexart}  
+
+
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\textwidth}{9in}
+\setlength{\topmargin}{-.75in}
+\setlength{\textheight}{9.2in}
+\setlength{\parindent}{0in}  
+
+\makeatletter  
+\newif\if@restonecol  
+\makeatother  
+\let\algorithm\relax  
+\let\endalgorithm\relax 
+\usepackage[linesnumbered,ruled,lined]{algorithm2e}
+\usepackage{algpseudocode}  
+\renewcommand{\algorithmicrequire}{\textbf{Input:}}   
+\renewcommand{\algorithmicensure}{\textbf{Output:}}   
+\SetKwFor{For}{for}{do}{endfor} 
+
+\usepackage{CJKutf8}
+
+\begin{document}  
+
+\begin{algorithm}   
+
+\caption{The 3S ensemble learning algorithm}  
+\LinesNumbered  
+\KwIn{Training set 1, $\mathcal{T}_{1}$. Training set 2, $\mathcal{T}_{2}$. Collected prognosis gene set, $\mathcal{G}_{1}$.
+}
+
+
+\KwOut{The trained 3S risk score model $\mathcal{M}_{trained}$ .}
+
+
+\textbf{Stage 1: The feature selection process.}\ Select the signaficant genes in $\mathcal{G}_{1}$ in $\mathcal{T}_{1}$ set by Unicox (using cutoff:${p<0.05}$) and then get the gene set $\mathcal{G}_{2}$ \;
+Pair the  genes of $\mathcal{G}_{2}$ (\textbf{Equation 1}\)) in $\mathcal{T}_{1}$ set to avoid batch effect and then perform  LASSO regression using cutoff ${p<0.05}$ and then get the gene-pair set $\mathcal{G}_{3}$ \;
+
+\textbf{Stage 2: The construction of basic learners.}\ According to \textbf{Equation 2-16}\), construct 5 kinds of survival prediction models. Firstly, perform 10-fold CV and grid search in the $\mathcal{T}_{2}$ set and then built $\mathcal{N}_{gene}$  models using the whole $\mathcal{T}_{2}$ set\    and these models are sorted by C-index (\textbf{Equation 6}\))  in CV from high to low ($m_1$...$m_N$)\;
+
+
+\textbf{Stage 3: The construction of 3S model using GA algorithm.}\ Set up an ensemble learning model using the $m_1$ model parameters. Perform the GA algorithm in the $\mathcal{T}_{1}$ set. And set the parameters: $\mathcal{N}_{mg}$, $\mathcal{N}_{round}$, $\mathcal{N}_{chromosome}$ \;
+
+\For{training iterations $\textbf{i}=1,...,$\mathcal{N}_{round}$ $}{
+    Compute current fitness value $f(x)$ by \textbf{Equation 17} and keep the chromosome with highest fitness unchanged \;
+    Selecte chromosomes according to Selection operator (\textbf{Equation 18})\;
+    Cross selected chromosomes \;
+    Generate mutated chromosomes according to $\mathcal{N}_{mg}$ (\textbf{Equation 19})\;
+}
+\end{algorithm}  
+\end{document} 
