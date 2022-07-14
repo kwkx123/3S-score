@@ -1,0 +1,12 @@
+Fixed parameters,Changed parameters,takeover time (SD)
+"Nindividual = 50, Ngeneration=50,Nmg=10",Selection operator = Roulette,520(10.1)
+"Nindividual = 50, Ngeneration=50,Nmg=10",Selection operator = Rank,546(3.6)
+"Nindividual = 50, Ngeneration=50,Nmg=10",Selection operator = Tournament,588(7.2)
+"Selection operator = Roulette, Nindividual = 50, Ngeneration=50",Nmg=10,520(10.1)
+"Selection operator = Roulette, Nindividual = 50, Ngeneration=50",Nmg=20,516(8.4)
+"Selection operator = Roulette, Nindividual = 50, Ngeneration=50",Nmg=30,550(9.8)
+"Selection operator = Roulette, Ngeneration=50,Nmg=10",Nindividual=30,380(4.4)
+"Selection operator = Roulette, Ngeneration=50,Nmg=10",Nindividual=50,520(10.1)
+"Selection operator = Roulette, Ngeneration=50,Nmg=10",Nindividual=80,848(19.0)
+,,
+The unit of takeover time is second.,,

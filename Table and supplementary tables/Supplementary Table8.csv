@@ -1,0 +1,6 @@
+Model,Batch Effect processing method,C-index,p,AUCROC(1st year),AUCROC(3rd year),AUCROC(5th year),p
+3S score,gene-pairing,0.697,,0.705,0.825,0.839,
+3S score (without gene-pairing),ComBat,0.685,0.017,0.691,0.818,0.837,0.079
+3S score (using one training set),gene-pairing,0.634,0.005,0.631,0.738,0.752,0.001
+3S score (without GA),gene-pairing,0.679,0.021,0.681,0.799,0.82,0.004
+3S score (without GA but using Pearson coefficient),gene-pairing,0.639,0.002,0.648,0.743,0.754,0.007

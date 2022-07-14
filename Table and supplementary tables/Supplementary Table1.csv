@@ -1,0 +1,12 @@
+Cohort ,TCGA,CGGA693,CGGA325,CGGA301,CGGA475,GSE4271,GSE4412,GSE43378,GSE7696,GSE74187,GSE83300
+N,603,657,313,202,300,77,59,50,80,60,50
+Gender: Female-Male,254-349,283-374,116-197,87-115,122-178,25-52,33-26,16-34,21-59,Unknown,25-25
+WHO Grade: I-II-III-IV-Unknown,0-213-238-152-0,0-172-248-237-0,0-98-74-137-4,0-79-37-86-0,2-64-57-144-33,0-0-21-56-0,0-0-0-59-0,0-5-13-32-0,0-0-0-0-80,0-0-0-0-60,0-0-0-0-50
+Age (SD),47.4(15.3),43.5(12.4),43.2(12.0),41.5(12.1),Unknown,45.5(12.9),48.5(16.1),52.8(17.0),51.0(9.1),Unknown,45.3(11.4)
+Outcome: Alive/Censored-Dead,424-179,263-394,95-218,71-131,69-231,15-62,13-46,8-42,21-59,14-46,11-39
+OS time (SD),1.8(2.3),3.3(2.7),4.0(4.0),4.5(4.4),3.4(3.5),2.7(2.3),1.0(0.9),2.2(1.8),1.6(1.2),1.6(0.9),1.6(0.8)
+IDH_mutation_status: Mutation-Wildtype-Unknown,373-224-6,333-276-48,145-167-1,86-115-1,0-0-300,0-0-77,0-0-59,0-0-50,0-0-80,0-0-60,0-0-50
+1p19q_codeletion_status:Codel-Noncodel-Unknown,149-449-5,137-454-66,62-243-8,9-52-141,12-91-197,0-0-77,0-0-59,0-0-50,0-0-80,0-0-60,0-0-50
+Transcriptomics platform,RNA-seq,RNA-seq,RNA-seq,Microarray,Microarray,Microarray,Microarray,Microarray,Microarray,Microarray,Microarray
+,,,,,,,,,,,
+The unit of age and OS time is year,,,,,,,,,,,
