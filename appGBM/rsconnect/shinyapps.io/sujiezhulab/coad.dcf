@@ -1,0 +1,13 @@
+name: coad
+title: coad
+username:
+account: sujiezhulab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5178705
+bundleId: 5279237
+url: https://sujiezhulab.shinyapps.io/coad/
+when: 1637575694.16379
+lastSyncTime: 1637575694.16379
+asMultiple: FALSE
+asStatic: FALSE

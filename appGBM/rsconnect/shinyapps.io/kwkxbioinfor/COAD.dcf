@@ -1,0 +1,13 @@
+name: COAD
+title: COAD
+username:
+account: kwkxbioinfor
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5208182
+bundleId: 5295438
+url: https://kwkxbioinfor.shinyapps.io/COAD/
+when: 1637915675.16703
+lastSyncTime: 1637915675.16703
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,13 @@
+name: app4
+title: app4
+username:
+account: sujiezhulab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5178554
+bundleId: 5278624
+url: https://sujiezhulab.shinyapps.io/app4/
+when: 1637563280.68445
+lastSyncTime: 1637563280.68445
+asMultiple: FALSE
+asStatic: FALSE

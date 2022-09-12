@@ -1,0 +1,13 @@
+name: BRCA
+title: BRCA
+username:
+account: sujiezhulab
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 5313603
+bundleId: 5426048
+url: https://sujiezhulab.shinyapps.io/BRCA/
+when: 1641097641.31919
+lastSyncTime: 1641097641.31919
+asMultiple: FALSE
+asStatic: FALSE
